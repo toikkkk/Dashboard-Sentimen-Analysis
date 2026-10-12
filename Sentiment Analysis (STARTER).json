@@ -1,0 +1,192 @@
+{
+  "data": {
+    "edges": [],
+    "nodes": [
+      {
+        "data": {
+          "id": "note-3Ulnn",
+          "node": {
+            "description": "### 💡Tambahkan Language Model di sini,  sesuaikan isinya",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-3Ulnn",
+        "measured": {
+          "height": 324,
+          "width": 413
+        },
+        "position": {
+          "x": -1332.127891232405,
+          "y": 901.26753535239
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 413
+      },
+      {
+        "data": {
+          "id": "note-Bq0to",
+          "node": {
+            "description": "### 💡 Tambahkan Read File di sini, upload file review CSV",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-Bq0to",
+        "measured": {
+          "height": 324,
+          "width": 324
+        },
+        "position": {
+          "x": -2146.15212041184,
+          "y": 896.2574348977333
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 324
+      },
+      {
+        "data": {
+          "id": "note-Tq8xC",
+          "node": {
+            "description": "### 💡 Tambahkan Language Model di sini, sesuaikan isinya",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-Tq8xC",
+        "measured": {
+          "height": 324,
+          "width": 343
+        },
+        "position": {
+          "x": -622.516470391962,
+          "y": 918.8000759276773
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 343
+      },
+      {
+        "data": {
+          "id": "note-3UMe7",
+          "node": {
+            "description": "### 💡Tambahkan Prompt Template 1 di sini, sesuaikan isinya",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 331,
+        "id": "note-3UMe7",
+        "measured": {
+          "height": 331,
+          "width": 359
+        },
+        "position": {
+          "x": -1727.5999635698222,
+          "y": 895.5877023922935
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 359
+      },
+      {
+        "data": {
+          "id": "note-xOOyR",
+          "node": {
+            "description": "### 💡Tambahkan Prompt Template di sini, sesuaikan isinya",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-xOOyR",
+        "measured": {
+          "height": 324,
+          "width": 345
+        },
+        "position": {
+          "x": -987.3784802677858,
+          "y": 905.0504407163
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 345
+      },
+      {
+        "data": {
+          "id": "note-KpFT6",
+          "node": {
+            "description": "### 💡 Tambahkan Chat Output di sini",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "transparent"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "id": "note-KpFT6",
+        "measured": {
+          "height": 324,
+          "width": 469
+        },
+        "position": {
+          "x": -222.3613304337674,
+          "y": 1067.346314802363
+        },
+        "selected": false,
+        "type": "noteNode"
+      }
+    ],
+    "viewport": {
+      "x": 1060.5551767119964,
+      "y": -366.0338420384786,
+      "zoom": 0.4680726809426843
+    }
+  },
+  "description": "Sample Project Data",
+  "endpoint_name": null,
+  "id": "2601eaae-bcaa-42e2-8328-d6321a3b14e2",
+  "is_component": false,
+  "last_tested_version": "1.7.2",
+  "name": "Sentiment Analysis (STARTER)",
+  "tags": [
+    "classification"
+  ]
+}

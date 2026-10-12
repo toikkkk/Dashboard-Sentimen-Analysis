@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sentiment Analysis Dashboard — IBM AI Builders Challenge 2024</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f172a;color:#e2e8f0;font-size:14px}
+  .header{background:linear-gradient(135deg,#1e3a8a 0%,#1d4ed8 50%,#7c3aed 100%);padding:32px 40px;border-bottom:1px solid #334155}
+  .header h1{font-size:1.8rem;font-weight:700;color:#fff;letter-spacing:-0.5px}
+  .header .subtitle{color:#bfdbfe;margin-top:6px;font-size:0.95rem}
+  .header .meta{color:#93c5fd;font-size:0.82rem;margin-top:8px}
+  .container{max-width:1280px;margin:0 auto;padding:28px 32px}
+  .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:28px}
+  .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:20px}
+  .card h2{font-size:1rem;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:16px}
+  .stat-card{text-align:center;padding:24px 16px}
+  .stat-val{font-size:2.4rem;font-weight:800;line-height:1}
+  .stat-label{font-size:0.8rem;color:#64748b;margin-top:6px;text-transform:uppercase;letter-spacing:0.5px}
+  .stat-sub{font-size:0.85rem;color:#94a3b8;margin-top:4px}
+  .c-pos{color:#22c55e} .c-neu{color:#f59e0b} .c-neg{color:#ef4444} .c-blue{color:#60a5fa}
+  .overall-badge{display:inline-block;padding:8px 24px;border-radius:24px;font-size:1.5rem;font-weight:800;letter-spacing:1px;margin:12px 0}
+  .overall-pos{background:#14532d;color:#4ade80;border:2px solid #22c55e}
+  .overall-neu{background:#451a03;color:#fbbf24;border:2px solid #f59e0b}
+  .overall-neg{background:#450a0a;color:#f87171;border:2px solid #ef4444}
+  .badge{padding:3px 10px;border-radius:20px;font-size:0.75rem;font-weight:600}
+  .badge-pos{background:#14532d;color:#4ade80} .badge-neu{background:#451a03;color:#fbbf24}
+  .badge-neg{background:#450a0a;color:#f87171}
+  table{width:100%;border-collapse:collapse}
+  th{background:#0f172a;color:#64748b;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.5px;padding:10px 12px;text-align:left;border-bottom:1px solid #334155}
+  td{padding:10px 12px;border-bottom:1px solid #1e293b;font-size:0.88rem;vertical-align:middle}
+  tr:hover td{background:#263045}
+  .product-name{max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .narrative{line-height:1.8;color:#cbd5e1;font-size:0.92rem}
+  .narrative p{margin-bottom:12px}
+  .narrative strong{color:#93c5fd}
+  .rec-item{display:flex;gap:12px;padding:14px 16px;border-radius:8px;margin-bottom:10px}
+  .rec-high{background:#450a0a;border-left:4px solid #ef4444}
+  .rec-medium{background:#451a03;border-left:4px solid #f59e0b}
+  .rec-low{background:#052e16;border-left:4px solid #22c55e}
+  .rec-icon{font-size:1.2rem;flex-shrink:0;padding-top:2px}
+  .rec-item p{color:#cbd5e1;line-height:1.7;font-size:0.88rem}
+  .rec-item p strong{color:#f1f5f9}
+  .section-title{font-size:1.1rem;font-weight:700;color:#e2e8f0;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #334155}
+  .priority-label{font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;margin:18px 0 8px}
+  .footer{text-align:center;color:#475569;font-size:0.78rem;padding:24px;border-top:1px solid #1e293b;margin-top:12px}
+  canvas{max-height:240px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📊 Customer Feedback Sentiment Analyzer</h1>
+  <div class="subtitle">IBM Global AI Builders Challenge 2024 — Productivity & Smart Business / Customer Analytics</div>
+  <div class="meta">Dataset: laptop_online_review.csv &nbsp;|&nbsp; Generated: 12 October 2026, 22:10 WIB</div>
+</div>
+<div class="container">
+
+  <!-- KPI CARDS -->
+  <div class="grid-4">
+    <div class="card stat-card">
+      <div class="stat-val c-blue">1001</div>
+      <div class="stat-label">Total Ulasan</div>
+      <div class="stat-sub">101 varian produk</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-val c-pos">90.3%</div>
+      <div class="stat-label">Sentimen Positif</div>
+      <div class="stat-sub">904 ulasan</div>
+    </div>
+    <div class="card stat-card">
+      <div class="stat-val c-blue">⭐ 4.39</div>
+      <div class="stat-label">Avg Rating</div>
+      <div class="stat-sub">dari skala 5.0</div>
+    </div>
+    <div class="card stat-card">
+      <div class="overall-badge overall-pos">POSITIF</div>
+      <div class="stat-label">Klasifikasi Keseluruhan</div>
+    </div>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="grid-2">
+    <div class="card">
+      <h2>Distribusi Sentimen</h2>
+      <canvas id="sentPie"></canvas>
+    </div>
+    <div class="card">
+      <h2>Rata-rata Rating per Brand</h2>
+      <canvas id="brandBar"></canvas>
+    </div>
+  </div>
+
+  <!-- EXECUTIVE NARRATIVE -->
+  <div class="card" style="margin-bottom:24px">
+    <div class="section-title">📝 Ringkasan Naratif Eksekutif</div>
+    <div class="narrative"><p>Berdasarkan analisis terhadap <strong>1001 ulasan pelanggan<strong> dari 101 varian produk laptop kategori e-commerce, diperoleh gambaran sentimen pelanggan yang secara keseluruhan <strong>cenderung positif<strong>, dengan distribusi: <strong>90.3% ulasan Positif<strong>, 2.8% Netral, dan 6.9% Negatif. Rata-rata rating keseluruhan berada pada angka <strong>4.39/5<strong>, mencerminkan tingkat kepuasan yang relatif baik di segmen harga menengah-bawah hingga menengah.</p><p><strong>Kualitas Produk:<strong> Pelanggan secara konsisten mengapresiasi aspek "good", "nice", "best" pada produk-produk yang dianalisis. Brand <strong>Lenovo<strong> mencatat rating rata-rata tertinggi sebesar 4.86/5, diperkuat oleh pujian terhadap performa prosesor, kecepatan booting berbasis SSD, dan desain form factor yang ringkas. Namun demikian, keluhan berulang muncul pada dimensi "bad", "issue", "heat" — terutama pada kategori laptop entry-level, di mana kompromi spesifikasi menjadi pola yang diakui pelanggan. Isu kamera dan sudut pandang layar (viewing angle) juga tercatat sebagai area yang perlu mendapat perhatian dari tim produk.</p><p><strong>Harga & Nilai:<strong> Sebesar <strong>87.8%<strong> ulasan yang menyebutkan dimensi harga memberikan respons positif, menandakan bahwa mayoritas pelanggan merasakan kesesuaian antara harga yang dibayarkan dengan spesifikasi yang diterima. Ungkapan "value for money" dan "best in this price range" menjadi frasa yang paling sering muncul, mengindikasikan positioning harga yang tepat sasaran bagi segmen pelajar dan profesional pemula.</p><p><strong>Pengalaman Pengiriman:<strong> Dari ulasan yang menyebutkan pengiriman, tingkat kepuasan mencapai <strong>89.6%<strong>. Platform Flipkart secara khusus mendapat banyak pujian atas kecepatan pengiriman. Meski demikian, terdapat beberapa laporan keterlambatan pengiriman yang berdampak pada persepsi keseluruhan pelanggan, sehingga konsistensi standar logistik perlu terus dijaga.</p></div>
+  </div>
+
+  <!-- PRODUCT TABLE -->
+  <div class="card" style="margin-bottom:24px">
+    <div class="section-title">📦 Analisis Per Produk</div>
+    <div style="overflow-x:auto">
+    <table>
+      <thead><tr>
+        <th>#</th><th>Produk</th><th>Brand</th><th>Rating</th>
+        <th>Reviews</th><th>Sentimen</th><th>Pos / Neu / Neg</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td class="product-name">Lenovo Ideapad Gaming 3 Ryzen 5 Hexa Core 5600H - (8 GB/512</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 5.0</td>
+          <td>3</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">3</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="product-name">Lenovo ThinkBook 13s Core i5 11th Gen - (8 GB/512 GB SSD/Win</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 5.0</td>
+          <td>2</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">2</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="product-name">DELL Vostro Ryzen 3 Dual Core R3-3250U - (8 GB/1 TB HDD/Wind</td>
+          <td><strong>Dell</strong></td>
+          <td>⭐ 5.0</td>
+          <td>1</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">1</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="product-name">Lenovo ThinkBook 13s Core i5 11th Gen - (16 GB/512 GB SSD/Wi</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 5.0</td>
+          <td>3</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">3</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="product-name">Lenovo IdeaPad Gaming 3 Core i5 11th Gen - (8 GB/512 GB SSD/</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 5.0</td>
+          <td>2</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">2</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td class="product-name">SAMSUNG 230 L Direct Cool Single Door 3 Star Refrigerator wi</td>
+          <td><strong>Samsung</strong></td>
+          <td>⭐ 5.0</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td class="product-name">LG 260 L Frost Free Double Door Top Mount 3 Star Convertible</td>
+          <td><strong>Lg</strong></td>
+          <td>⭐ 5.0</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">9</span> /
+              <span style="color:#f59e0b">1</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td class="product-name">SAMSUNG Galaxy M32 (Black, 64 GB)  (4 GB RAM)</td>
+          <td><strong>Samsung</strong></td>
+          <td>⭐ 5.0</td>
+          <td>2</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">2</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td class="product-name">Lenovo IdeaPad 3 Core i3 11th Gen - (8 GB/512 GB SSD/Windows</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 4.9</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td class="product-name">Whirlpool 240 L Frost Free Triple Door Refrigerator  (Magnum</td>
+          <td><strong>Whirlpool</strong></td>
+          <td>⭐ 4.9</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td class="product-name">ASUS Ryzen 3 Dual Core 3250U 3rd Gen - (8 GB/256 GB SSD/Wind</td>
+          <td><strong>Asus</strong></td>
+          <td>⭐ 4.8</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td class="product-name">Lenovo Legion 5 Ryzen 5 Hexa Core 4600H - (8 GB/1 TB HDD/256</td>
+          <td><strong>Lenovo</strong></td>
+          <td>⭐ 4.8</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td class="product-name">SAMSUNG 198 L Direct Cool Single Door 4 Star Refrigerator wi</td>
+          <td><strong>Samsung</strong></td>
+          <td>⭐ 4.8</td>
+          <td>20</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">19</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">1</span></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td class="product-name">SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator  (</td>
+          <td><strong>Samsung</strong></td>
+          <td>⭐ 4.8</td>
+          <td>10</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">10</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">0</span></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td class="product-name">LG 190 L Direct Cool Single Door 4 Star Refrigerator with Ba</td>
+          <td><strong>Lg</strong></td>
+          <td>⭐ 4.8</td>
+          <td>20</td>
+          <td><span class="badge badge-pos">POSITIF</span></td>
+          <td><span style="color:#22c55e">19</span> /
+              <span style="color:#f59e0b">0</span> /
+              <span style="color:#ef4444">1</span></td>
+        </tr></tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- RECOMMENDATIONS -->
+  <div class="card" style="margin-bottom:24px">
+    <div class="section-title">🚀 Rekomendasi Tindakan Bisnis</div>
+    <div class="priority-label" style="color:#ef4444">🔴 PRIORITAS TINGGI — Tindakan Segera (1–4 Minggu)</div>
+    <div class="rec-item rec-high"><span class="rec-icon">🔴</span><p><strong>[Tim Produk & QA]</strong> Lakukan audit teknis menyeluruh terhadap unit yang dilaporkan mengalami freeze/hang. Prioritaskan investigasi firmware dan driver update untuk model dengan keluhan performa paling tinggi. Target: rilis hotfix dalam 2 minggu.</p></div>
+
+    <div class="priority-label" style="color:#f59e0b">🟡 PRIORITAS SEDANG — Perbaikan Terencana (1–3 Bulan)</div>
+    <div class="rec-item rec-medium"><span class="rec-icon">🟡</span><p><strong>[Tim Produk & After-Sales]</strong> Publikasikan panduan thermal management resmi (setting mode performa, rekomendasi cooling pad) di portal dukungan. Aktifkan notifikasi proaktif kepada pelanggan yang memiliki unit dengan laporan suhu tinggi.</p></div>
+<div class="rec-item rec-medium"><span class="rec-icon">🟡</span><p><strong>[Tim Operasional & Logistik]</strong> Terapkan SLA pengiriman maksimal D+3 untuk area Tier-1 dan D+5 untuk area Tier-2/3. Integrasikan tracking real-time dan notifikasi proaktif via WhatsApp/SMS untuk meningkatkan transparansi status pengiriman.</p></div>
+
+    <div class="priority-label" style="color:#22c55e">🟢 PRIORITAS RENDAH — Optimasi Jangka Panjang (3–6 Bulan)</div>
+    <div class="rec-item rec-low"><span class="rec-icon">🟢</span><p><strong>[Tim Marketing & Growth]</strong> Manfaatkan ulasan Positif yang menyebut value-for-money sebagai social proof di kampanye iklan. Buat program 'Verified Buyer Review' dengan insentif kecil untuk meningkatkan volume ulasan berkualitas tinggi.</p></div>
+<div class="rec-item rec-low"><span class="rec-icon">🟢</span><p><strong>[Tim Produk]</strong> Evaluasi penambahan fitur backlit keyboard dan fingerprint sensor pada lini produk entry-to-mid sebagai differentiator kompetitif — dua fitur ini paling sering disebut sebagai 'missing feature' dalam ulasan Netral.</p></div>
+<div class="rec-item rec-low"><span class="rec-icon">🟢</span><p><strong>[Tim Data & Analytics]</strong> Bangun pipeline analisis sentimen real-time (menggunakan IBM watsonx.ai) yang memproses ulasan baru setiap 24 jam, dengan alert otomatis ketika rating produk tertentu turun di bawah threshold 3.5/5 dalam periode 7 hari berturut-turut.</p></div>
+
+  </div>
+
+</div><!-- /container -->
+
+<div class="footer">
+  Customer Feedback Sentiment Analyzer &nbsp;|&nbsp; IBM Global AI Builders Challenge 2024
+  &nbsp;|&nbsp; Track: Productivity &amp; Smart Business
+</div>
+
+<script>
+// Pie Chart
+new Chart(document.getElementById('sentPie'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Positive', 'Neutral', 'Negative'],
+    datasets: [{
+      data: [904, 28, 69],
+      backgroundColor: ['#22c55e','#f59e0b','#ef4444'],
+      borderColor: '#1e293b', borderWidth: 3
+    }]
+  },
+  options: {
+    plugins: { legend: { labels: { color:'#94a3b8', font:{size:12} } } },
+    cutout: '65%'
+  }
+});
+
+// Bar Chart
+new Chart(document.getElementById('brandBar'), {
+  type: 'bar',
+  data: {
+    labels: ["Lenovo", "Haier", "Acer", "Infinix", "Lg", "Poco", "Whirlpool", "Apple", "Oneplus", "Dell", "Mi", "Asus", "Samsung", "Godrej", "Lava", "Redmi", "Coocaa", "Motorola", "Hp", "Realme"],
+    datasets: [
+      { label: 'Avg Rating', data: [4.86, 4.8, 4.7, 4.7, 4.7, 4.63, 4.62, 4.6, 4.6, 4.57, 4.53, 4.42, 4.4, 4.4, 4.38, 4.3, 4.3, 4.3, 4.23, 3.74],
+         backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: '% Positif', data: [100, 100, 90, 90, 94, 93, 100, 100, 90, 100, 96, 91, 91, 90, 95, 90, 90, 90, 84, 72],
+         backgroundColor: '#22c55e', borderRadius: 4, yAxisID: 'y2' }
+    ]
+  },
+  options: {
+    plugins: { legend: { labels: { color:'#94a3b8' } } },
+    scales: {
+      x: { ticks: { color:'#64748b' }, grid: { color:'#1e293b' } },
+      y: { ticks: { color:'#64748b' }, grid: { color:'#334155' }, min:0, max:5,
+             title: { display:true, text:'Rating', color:'#64748b' } },
+      y2: { position:'right', ticks: { color:'#64748b' }, grid: { drawOnChartArea:false },
+              min:0, max:100, title: { display:true, text:'% Positif', color:'#64748b' } }
+    }
+  }
+});
+</script>
+</body>
+</html>

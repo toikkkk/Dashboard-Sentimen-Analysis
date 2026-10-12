@@ -1,0 +1,3360 @@
+{
+  "meta": {
+    "generated_at": "2026-10-12T22:10:06.282949",
+    "total_reviews": 1001,
+    "tool": "Customer Feedback Sentiment Analyzer",
+    "challenge": "IBM Global AI Builders Challenge 2024"
+  },
+  "global_stats": {
+    "total_reviews": 1001,
+    "avg_rating_global": 4.39,
+    "sentiment_distribution": {
+      "Positive": 904,
+      "Neutral": 28,
+      "Negative": 69
+    },
+    "positive_pct": 90.3,
+    "neutral_pct": 2.8,
+    "negative_pct": 6.9,
+    "brand_breakdown": {
+      "Lenovo": {
+        "total_reviews": 36,
+        "avg_rating": 4.86,
+        "positive_rate": 1.0
+      },
+      "Haier": {
+        "total_reviews": 10,
+        "avg_rating": 4.8,
+        "positive_rate": 1.0
+      },
+      "Acer": {
+        "total_reviews": 10,
+        "avg_rating": 4.7,
+        "positive_rate": 0.9
+      },
+      "Infinix": {
+        "total_reviews": 20,
+        "avg_rating": 4.7,
+        "positive_rate": 0.9
+      },
+      "Lg": {
+        "total_reviews": 70,
+        "avg_rating": 4.7,
+        "positive_rate": 0.94
+      },
+      "Poco": {
+        "total_reviews": 30,
+        "avg_rating": 4.63,
+        "positive_rate": 0.93
+      },
+      "Whirlpool": {
+        "total_reviews": 50,
+        "avg_rating": 4.62,
+        "positive_rate": 1.0
+      },
+      "Apple": {
+        "total_reviews": 20,
+        "avg_rating": 4.6,
+        "positive_rate": 1.0
+      },
+      "Oneplus": {
+        "total_reviews": 30,
+        "avg_rating": 4.6,
+        "positive_rate": 0.9
+      },
+      "Dell": {
+        "total_reviews": 23,
+        "avg_rating": 4.57,
+        "positive_rate": 1.0
+      },
+      "Mi": {
+        "total_reviews": 114,
+        "avg_rating": 4.53,
+        "positive_rate": 0.96
+      },
+      "Asus": {
+        "total_reviews": 33,
+        "avg_rating": 4.42,
+        "positive_rate": 0.91
+      },
+      "Samsung": {
+        "total_reviews": 272,
+        "avg_rating": 4.4,
+        "positive_rate": 0.91
+      },
+      "Godrej": {
+        "total_reviews": 10,
+        "avg_rating": 4.4,
+        "positive_rate": 0.9
+      },
+      "Lava": {
+        "total_reviews": 60,
+        "avg_rating": 4.38,
+        "positive_rate": 0.95
+      },
+      "Redmi": {
+        "total_reviews": 10,
+        "avg_rating": 4.3,
+        "positive_rate": 0.9
+      },
+      "Coocaa": {
+        "total_reviews": 10,
+        "avg_rating": 4.3,
+        "positive_rate": 0.9
+      },
+      "Motorola": {
+        "total_reviews": 10,
+        "avg_rating": 4.3,
+        "positive_rate": 0.9
+      },
+      "Hp": {
+        "total_reviews": 43,
+        "avg_rating": 4.23,
+        "positive_rate": 0.84
+      },
+      "Realme": {
+        "total_reviews": 140,
+        "avg_rating": 3.74,
+        "positive_rate": 0.72
+      }
+    }
+  },
+  "product_summaries": [
+    {
+      "product_name": "Lenovo Ideapad Gaming 3 Ryzen 5 Hexa Core 5600H - (8 GB/512",
+      "brand": "Lenovo",
+      "total_reviews": 3,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 3,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "best",
+        "fast",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "problem",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "Lenovo ThinkBook 13s Core i5 11th Gen - (8 GB/512 GB SSD/Win",
+      "brand": "Lenovo",
+      "total_reviews": 2,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "best",
+        "great",
+        "powerful"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "DELL Vostro Ryzen 3 Dual Core R3-3250U - (8 GB/1 TB HDD/Wind",
+      "brand": "Dell",
+      "total_reviews": 1,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 1,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": null,
+        "harga_nilai": null,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "Lenovo ThinkBook 13s Core i5 11th Gen - (16 GB/512 GB SSD/Wi",
+      "brand": "Lenovo",
+      "total_reviews": 3,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 3,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "great",
+        "best",
+        "nice",
+        "sturdy",
+        "wonderful"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "Lenovo IdeaPad Gaming 3 Core i5 11th Gen - (8 GB/512 GB SSD/",
+      "brand": "Lenovo",
+      "total_reviews": 2,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": null,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "SAMSUNG 230 L Direct Cool Single Door 3 Star Refrigerator wi",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "nice",
+        "great",
+        "amazing",
+        "love",
+        "fast",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "noise",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "LG 260 L Frost Free Double Door Top Mount 3 Star Convertible",
+      "brand": "Lg",
+      "total_reviews": 10,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "best",
+        "nice",
+        "good",
+        "great",
+        "satisfied",
+        "awesome",
+        "love",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "freeze",
+        "noise",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M32 (Black, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 2,
+      "avg_rating": 5.0,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": null,
+        "harga_nilai": null,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "Lenovo IdeaPad 3 Core i3 11th Gen - (8 GB/512 GB SSD/Windows",
+      "brand": "Lenovo",
+      "total_reviews": 10,
+      "avg_rating": 4.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "nice",
+        "awesome",
+        "good",
+        "love",
+        "fast",
+        "great",
+        "premium",
+        "classy"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "Whirlpool 240 L Frost Free Triple Door Refrigerator  (Magnum",
+      "brand": "Whirlpool",
+      "total_reviews": 10,
+      "avg_rating": 4.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "awesome",
+        "good",
+        "amazing",
+        "superb",
+        "value",
+        "fast",
+        "best",
+        "stunning"
+      ],
+      "top_negative_phrases": [
+        "freeze",
+        "noise"
+      ]
+    },
+    {
+      "product_name": "ASUS Ryzen 3 Dual Core 3250U 3rd Gen - (8 GB/256 GB SSD/Wind",
+      "brand": "Asus",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "great",
+        "best",
+        "amazing",
+        "stunning",
+        "beautiful",
+        "fantastic"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "flimsy",
+        "noise",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "Lenovo Legion 5 Ryzen 5 Hexa Core 4600H - (8 GB/1 TB HDD/256",
+      "brand": "Lenovo",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "nice",
+        "worth",
+        "simple",
+        "superb",
+        "excellent",
+        "great"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "heat",
+        "not worth",
+        "freeze"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 198 L Direct Cool Single Door 4 Star Refrigerator wi",
+      "brand": "Samsung",
+      "total_reviews": 20,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 19,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 0.89
+      },
+      "top_positive_phrases": [
+        "best",
+        "good",
+        "awesome",
+        "happy",
+        "decent",
+        "beautiful",
+        "excellent",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "noise",
+        "issue",
+        "scratched",
+        "cheap",
+        "problem",
+        "useless",
+        "heat",
+        "heating"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator  (",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "deal",
+        "worth",
+        "nice",
+        "best",
+        "fast",
+        "beautiful"
+      ],
+      "top_negative_phrases": [
+        "freeze"
+      ]
+    },
+    {
+      "product_name": "LG 190 L Direct Cool Single Door 4 Star Refrigerator with Ba",
+      "brand": "Lg",
+      "total_reviews": 20,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 19,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "nice",
+        "happy",
+        "best",
+        "value",
+        "superb",
+        "awesome"
+      ],
+      "top_negative_phrases": [
+        "noise",
+        "issue",
+        "heat",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "LG 190 L Direct Cool Single Door 4 Star Refrigerator  (Scarl",
+      "brand": "Lg",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "happy",
+        "best",
+        "comfortable",
+        "superb",
+        "perfect",
+        "recommend"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "heat",
+        "bad",
+        "noise"
+      ]
+    },
+    {
+      "product_name": "Haier 195 L Direct Cool Single Door 5 Star Refrigerator  (Br",
+      "brand": "Haier",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "nice",
+        "awesome",
+        "recommend",
+        "great",
+        "budget",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "noise"
+      ]
+    },
+    {
+      "product_name": "realme NEO 80 cm (32 inch) HD Ready LED Smart TV  (RMV2101)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 4.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "amazing",
+        "awesome",
+        "love",
+        "happy",
+        "value",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "lag"
+      ]
+    },
+    {
+      "product_name": "Vu Premium 108 cm (43 inch) Full HD LED Smart Android TV  (4",
+      "brand": "Mi",
+      "total_reviews": 4,
+      "avg_rating": 4.75,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 4,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "quick",
+        "nice"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "acer Aspire 7 Core i5 10th Gen - (8 GB/512 GB SSD/Windows 10",
+      "brand": "Acer",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.86,
+        "harga_nilai": 0.88,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "quick",
+        "value",
+        "fast",
+        "amazing",
+        "awesome",
+        "satisfied",
+        "best"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "heat",
+        "problem",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "POCO C31 (Royal Blue, 32 GB)  (3 GB RAM)",
+      "brand": "Poco",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "budget",
+        "love",
+        "fantastic",
+        "premium",
+        "powerful",
+        "best",
+        "awesome"
+      ],
+      "top_negative_phrases": [
+        "lag"
+      ]
+    },
+    {
+      "product_name": "Infinix Hot 11S (7° Purple, 64 GB)  (4 GB RAM)",
+      "brand": "Infinix",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.88,
+        "harga_nilai": 0.9,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "budget",
+        "great",
+        "value",
+        "smooth",
+        "awesome",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "issue",
+        "noise",
+        "bad",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "Infinix Hot 11S (Green Wave, 64 GB)  (4 GB RAM)",
+      "brand": "Infinix",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.88,
+        "harga_nilai": 0.9,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "budget",
+        "great",
+        "value",
+        "smooth",
+        "awesome",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "issue",
+        "noise",
+        "bad",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 230 L Direct Cool Single Door 3 Star Refrigerator  (",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "awesome",
+        "great",
+        "fast",
+        "reasonable",
+        "happy",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "regret",
+        "heat",
+        "heating",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 80 cm (32 inch) HD Ready LED Smart TV  (UA32T4340AKX",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "happy",
+        "awesome",
+        "great",
+        "love",
+        "value",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "Vu Premium 139 cm (55 inch) Ultra HD (4K) LED Smart Android",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "value",
+        "great",
+        "fast",
+        "best",
+        "awesome",
+        "budget",
+        "excellent"
+      ],
+      "top_negative_phrases": [
+        "heat",
+        "flimsy",
+        "lag",
+        "missing",
+        "hang"
+      ]
+    },
+    {
+      "product_name": "Vu Premium 108 cm (43 inch) Ultra HD (4K) LED Smart Android",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "value",
+        "great",
+        "fast",
+        "best",
+        "awesome",
+        "budget",
+        "excellent"
+      ],
+      "top_negative_phrases": [
+        "heat",
+        "flimsy",
+        "lag",
+        "missing",
+        "hang"
+      ]
+    },
+    {
+      "product_name": "Mi 4A PRO 80 cm (32 inch) HD Ready LED Smart Android TV",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "amazing",
+        "awesome",
+        "nice",
+        "love",
+        "happy",
+        "smooth",
+        "impressive"
+      ],
+      "top_negative_phrases": [
+        "problem",
+        "fault",
+        "lack",
+        "hang"
+      ]
+    },
+    {
+      "product_name": "LG 80 cm (32 inch) HD Ready LED Smart TV  (32LM565BPTA)",
+      "brand": "Lg",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "superb",
+        "value",
+        "awesome",
+        "nice",
+        "classy",
+        "love"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "Mi 4C 108 cm (43 inch) Full HD LED Smart Android TV",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good",
+        "beautiful",
+        "easy",
+        "happy",
+        "amazing",
+        "worth",
+        "excellent"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "SAMSUNG Metro 313 Dual Sim  (Black)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "nice",
+        "value",
+        "best",
+        "fantastic",
+        "superb",
+        "awesome"
+      ],
+      "top_negative_phrases": [
+        "problem"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M32 5G (Sky Blue, 128 GB)  (8 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good",
+        "great",
+        "outstanding"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "Lenovo IdeaPad 3 Ryzen 5 Hexa Core 5500U - (8 GB/512 GB SSD/",
+      "brand": "Lenovo",
+      "total_reviews": 6,
+      "avg_rating": 4.67,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "decent",
+        "nice",
+        "perfect",
+        "satisfied",
+        "amazing",
+        "best"
+      ],
+      "top_negative_phrases": [
+        "disappointed",
+        "disappoint",
+        "missing"
+      ]
+    },
+    {
+      "product_name": "HP Ryzen 3 Quad Core 5300U - (8 GB/512 GB SSD/Windows 11 Hom",
+      "brand": "Hp",
+      "total_reviews": 3,
+      "avg_rating": 4.67,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 3,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "value",
+        "fast",
+        "worth",
+        "powerful",
+        "great",
+        "excellent"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "DELL Inspiron Athlon Dual Core 3050U - (4 GB/256 GB SSD/Wind",
+      "brand": "Dell",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "amazing",
+        "happy",
+        "best",
+        "awesome",
+        "budget",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "slow"
+      ]
+    },
+    {
+      "product_name": "HP 15s Ryzen 3 Dual Core 3250U - (8 GB/1 TB HDD/256 GB SSD/W",
+      "brand": "Hp",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 0.8,
+        "pengiriman": 0.8
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "amazing",
+        "satisfied",
+        "great",
+        "excellent",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "issue",
+        "noise",
+        "lack",
+        "cheap",
+        "hang"
+      ]
+    },
+    {
+      "product_name": "APPLE iPhone SE (Red, 128 GB)",
+      "brand": "Apple",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "great",
+        "love",
+        "classy",
+        "excellent",
+        "fast",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "disappointed",
+        "disappoint",
+        "poor",
+        "lag"
+      ]
+    },
+    {
+      "product_name": "POCO C31 (Royal Blue, 64 GB)  (4 GB RAM)",
+      "brand": "Poco",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.5,
+        "harga_nilai": 0.67,
+        "pengiriman": 0.5
+      },
+      "top_positive_phrases": [
+        "good",
+        "budget",
+        "nice",
+        "best",
+        "love",
+        "fast",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "slow",
+        "not good",
+        "missing",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "LAVA Gem  (Blue Gold S)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "love",
+        "awesome",
+        "best",
+        "smooth",
+        "budget",
+        "excellent"
+      ],
+      "top_negative_phrases": [
+        "not good",
+        "lack"
+      ]
+    },
+    {
+      "product_name": "APPLE iPhone SE (Red, 64 GB)",
+      "brand": "Apple",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "great",
+        "love",
+        "classy",
+        "excellent",
+        "fast",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "disappointed",
+        "disappoint",
+        "poor",
+        "lag"
+      ]
+    },
+    {
+      "product_name": "POCO C31 (Shadow Gray, 64 GB)  (4 GB RAM)",
+      "brand": "Poco",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.5,
+        "harga_nilai": 0.67,
+        "pengiriman": 0.5
+      },
+      "top_positive_phrases": [
+        "good",
+        "budget",
+        "nice",
+        "best",
+        "love",
+        "fast",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "slow",
+        "not good",
+        "missing",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "LG 190 L Direct Cool Single Door 5 Star Refrigerator with Ba",
+      "brand": "Lg",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "best",
+        "nice",
+        "beautiful",
+        "great",
+        "perfect",
+        "good",
+        "superb",
+        "quick"
+      ],
+      "top_negative_phrases": [
+        "issue"
+      ]
+    },
+    {
+      "product_name": "OnePlus Y Series 80 cm (32 inch) HD Ready LED Smart Android",
+      "brand": "Oneplus",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 0.89,
+        "pengiriman": 0.67
+      },
+      "top_positive_phrases": [
+        "good",
+        "easy",
+        "amazing",
+        "lightweight",
+        "recommend",
+        "quick",
+        "best",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "OnePlus Y Series 100 cm (40 inch) Full HD LED Smart Android",
+      "brand": "Oneplus",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 0.89,
+        "pengiriman": 0.67
+      },
+      "top_positive_phrases": [
+        "good",
+        "easy",
+        "amazing",
+        "lightweight",
+        "recommend",
+        "quick",
+        "best",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "realme 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV w",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.86,
+        "harga_nilai": 0.78,
+        "pengiriman": 0.83
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "awesome",
+        "love",
+        "value",
+        "worth",
+        "excellent",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "problem",
+        "bad",
+        "disappointed",
+        "disappoint"
+      ]
+    },
+    {
+      "product_name": "OnePlus Y Series 108 cm (43 inch) Full HD LED Smart Android",
+      "brand": "Oneplus",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 0.89,
+        "pengiriman": 0.67
+      },
+      "top_positive_phrases": [
+        "good",
+        "easy",
+        "amazing",
+        "lightweight",
+        "recommend",
+        "quick",
+        "best",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F22 (Denim Blue, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "smooth",
+        "perfect",
+        "best",
+        "excellent",
+        "premium",
+        "amazing",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "lack",
+        "disappoint",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F22 (Denim Black, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.6,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "smooth",
+        "perfect",
+        "best",
+        "excellent",
+        "premium",
+        "amazing",
+        "nice"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "lack",
+        "disappoint",
+        "issue"
+      ]
+    },
+    {
+      "product_name": "Whirlpool 190 L Direct Cool Single Door 2 Star Refrigerator",
+      "brand": "Whirlpool",
+      "total_reviews": 40,
+      "avg_rating": 4.55,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 40,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "value",
+        "nice",
+        "best",
+        "awesome",
+        "fast",
+        "happy",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "disappoint"
+      ]
+    },
+    {
+      "product_name": "ASUS VivoBook 15 (2021) Core i3 11th Gen - (4 GB/256 GB SSD/",
+      "brand": "Asus",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "fast",
+        "good",
+        "awesome",
+        "best",
+        "impressive",
+        "value",
+        "nice",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "not good",
+        "bad",
+        "problem",
+        "low quality",
+        "lack"
+      ]
+    },
+    {
+      "product_name": "DELL Inspiron Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/W",
+      "brand": "Dell",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "amazing",
+        "smooth",
+        "sleek",
+        "excellent",
+        "awesome",
+        "mind blowing"
+      ],
+      "top_negative_phrases": [
+        "heat"
+      ]
+    },
+    {
+      "product_name": "DELL Inspiron Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Win",
+      "brand": "Dell",
+      "total_reviews": 2,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": null,
+        "harga_nilai": null,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice"
+      ],
+      "top_negative_phrases": []
+    },
+    {
+      "product_name": "LAVA Flip  (Blue)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "nice",
+        "awesome",
+        "value",
+        "handy",
+        "love",
+        "classy"
+      ],
+      "top_negative_phrases": [
+        "disappoint",
+        "heat",
+        "heating",
+        "issue",
+        "bad",
+        "pathetic"
+      ]
+    },
+    {
+      "product_name": "LAVA A3  (White + Beige S)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "nice",
+        "awesome",
+        "budget",
+        "excellent",
+        "value",
+        "happy"
+      ],
+      "top_negative_phrases": [
+        "issue"
+      ]
+    },
+    {
+      "product_name": "LAVA A3  (Dark Blue + Grey S D)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "nice",
+        "awesome",
+        "budget",
+        "excellent",
+        "value",
+        "happy"
+      ],
+      "top_negative_phrases": [
+        "issue"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 198 L Direct Cool Single Door 5 Star Refrigerator wi",
+      "brand": "Samsung",
+      "total_reviews": 20,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 18,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 0.86
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "best",
+        "decent",
+        "happy",
+        "excellent",
+        "smooth",
+        "wonderful"
+      ],
+      "top_negative_phrases": [
+        "noise",
+        "issue",
+        "scratched",
+        "cheap",
+        "problem",
+        "useless"
+      ]
+    },
+    {
+      "product_name": "Mi 4A Horizon Edition 100 cm (40 inch) Full HD LED Smart And",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "best",
+        "fast",
+        "awesome",
+        "premium",
+        "perfect",
+        "recommend"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "hang",
+        "slow",
+        "lag",
+        "problem",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "Mi 4A Horizon Edition 80 cm (32 inch) HD Ready LED Smart And",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "best",
+        "fast",
+        "awesome",
+        "premium",
+        "perfect",
+        "recommend"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "hang",
+        "slow",
+        "lag",
+        "problem",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "Mi 4A Horizon Edition 108 cm (43 inch) Full HD LED Smart And",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "best",
+        "fast",
+        "awesome",
+        "premium",
+        "perfect",
+        "recommend"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "hang",
+        "slow",
+        "lag",
+        "problem",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F12 (Sky Blue, 128 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "awesome",
+        "value",
+        "nice",
+        "perfect",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "heat",
+        "heating",
+        "problem",
+        "not good",
+        "weak",
+        "disappoint",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F12 (Celestial Black, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "awesome",
+        "value",
+        "nice",
+        "perfect",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "heat",
+        "heating",
+        "problem",
+        "not good",
+        "weak",
+        "disappoint",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F12 (Sky Blue, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "awesome",
+        "value",
+        "nice",
+        "perfect",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "heat",
+        "heating",
+        "problem",
+        "not good",
+        "weak",
+        "disappoint",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F12 (Sea Green, 128 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "awesome",
+        "value",
+        "nice",
+        "perfect",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "heat",
+        "heating",
+        "problem",
+        "not good",
+        "weak",
+        "disappoint",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy F12 (Sea Green, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "fast",
+        "awesome",
+        "value",
+        "nice",
+        "perfect",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "heat",
+        "heating",
+        "problem",
+        "not good",
+        "weak",
+        "disappoint",
+        "cheap"
+      ]
+    },
+    {
+      "product_name": "Godrej 185 L Direct Cool Single Door 4 Star Refrigerator  (A",
+      "brand": "Godrej",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.83,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "value",
+        "recommend",
+        "nice",
+        "budget",
+        "best",
+        "happy",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "noise",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator wi",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 10,
+        "Neutral": 0,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "awesome",
+        "best",
+        "value",
+        "love",
+        "perfect",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "cheap",
+        "noise"
+      ]
+    },
+    {
+      "product_name": "realme 80 cm (32 inch) HD Ready LED Smart Android TV  (TV 32",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 0.83,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "best",
+        "awesome",
+        "superb",
+        "perfect",
+        "nice",
+        "budget",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "lag",
+        "issue",
+        "slow",
+        "not working"
+      ]
+    },
+    {
+      "product_name": "Mi 5X 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV wi",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "great",
+        "smooth",
+        "value",
+        "happy",
+        "decent",
+        "perfect"
+      ],
+      "top_negative_phrases": [
+        "not great",
+        "bad",
+        "lag",
+        "weak",
+        "disappointed",
+        "disappoint",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "Mi 5X 125.7 cm (50 inch) Ultra HD (4K) LED Smart Android TV",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "great",
+        "smooth",
+        "value",
+        "happy",
+        "decent",
+        "perfect"
+      ],
+      "top_negative_phrases": [
+        "not great",
+        "bad",
+        "lag",
+        "weak",
+        "disappointed",
+        "disappoint",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.4,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "great",
+        "smooth",
+        "value",
+        "happy",
+        "decent",
+        "perfect"
+      ],
+      "top_negative_phrases": [
+        "not great",
+        "bad",
+        "lag",
+        "weak",
+        "disappointed",
+        "disappoint",
+        "heat"
+      ]
+    },
+    {
+      "product_name": "RedmiBook 15 e-Learning Edition Core i3 11th Gen - (8 GB/256",
+      "brand": "Redmi",
+      "total_reviews": 10,
+      "avg_rating": 4.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.86,
+        "harga_nilai": 0.83,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "satisfied",
+        "best",
+        "wonderful",
+        "deal",
+        "value",
+        "decent",
+        "superb"
+      ],
+      "top_negative_phrases": [
+        "problem",
+        "issue",
+        "missing",
+        "bad",
+        "not good",
+        "heat",
+        "heating",
+        "lack"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 192 L Direct Cool Single Door 1 Star Refrigerator  (",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.83,
+        "pengiriman": 0.67
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "value",
+        "awesome",
+        "love",
+        "superb",
+        "recommend",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "heat",
+        "lag",
+        "bad",
+        "noise"
+      ]
+    },
+    {
+      "product_name": "Coocaa 80 cm (32 inch) HD Ready LED Smart TV  (32S3U-Pro)",
+      "brand": "Coocaa",
+      "total_reviews": 10,
+      "avg_rating": 4.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.89,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "happy",
+        "nice",
+        "awesome",
+        "best",
+        "worth",
+        "fast",
+        "amazing"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "bad",
+        "waste",
+        "fault",
+        "useless",
+        "problem"
+      ]
+    },
+    {
+      "product_name": "MOTOROLA ZX2 100 cm (40 inch) Full HD LED Smart Android TV w",
+      "brand": "Motorola",
+      "total_reviews": 10,
+      "avg_rating": 4.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.89,
+        "harga_nilai": 1.0,
+        "pengiriman": 0.75
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "excellent",
+        "smooth",
+        "great",
+        "awesome",
+        "amazing",
+        "best"
+      ],
+      "top_negative_phrases": [
+        "issue",
+        "bad",
+        "problem",
+        "slow",
+        "hang",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "ASUS VivoBook 15 (2021) Core i3 10th Gen - (8 GB/512 GB SSD/",
+      "brand": "Asus",
+      "total_reviews": 10,
+      "avg_rating": 4.2,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.8,
+        "harga_nilai": 0.5,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "love",
+        "best",
+        "recommend",
+        "classy",
+        "sleek",
+        "awesome",
+        "incredible"
+      ],
+      "top_negative_phrases": [
+        "poor",
+        "issue",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 253 L Frost Free Double Door 3 Star Convertible Refr",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.2,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.75,
+        "pengiriman": 0.83
+      },
+      "top_positive_phrases": [
+        "good",
+        "premium",
+        "best",
+        "wonderful",
+        "worth",
+        "recommend",
+        "excellent",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "freeze",
+        "worst",
+        "issue",
+        "disappointed",
+        "disappoint"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 275 L Frost Free Double Door 3 Star Convertible Refr",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.2,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.75,
+        "pengiriman": 0.83
+      },
+      "top_positive_phrases": [
+        "good",
+        "premium",
+        "best",
+        "wonderful",
+        "worth",
+        "recommend",
+        "excellent",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "freeze",
+        "worst",
+        "issue",
+        "disappointed",
+        "disappoint"
+      ]
+    },
+    {
+      "product_name": "Vu Premium TV 80 cm (32 inch) HD Ready LED Smart TV with Bez",
+      "brand": "Mi",
+      "total_reviews": 10,
+      "avg_rating": 4.2,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 1,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.67,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "value",
+        "good",
+        "nice",
+        "simple",
+        "satisfied"
+      ],
+      "top_negative_phrases": [
+        "poor"
+      ]
+    },
+    {
+      "product_name": "LG 108 cm (43 inch) Ultra HD (4K) LED Smart TV  (43UP7500PTZ",
+      "brand": "Lg",
+      "total_reviews": 10,
+      "avg_rating": 4.2,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "great",
+        "nice",
+        "awesome",
+        "perfect",
+        "easy",
+        "amazing",
+        "best"
+      ],
+      "top_negative_phrases": [
+        "lack",
+        "poor",
+        "missing"
+      ]
+    },
+    {
+      "product_name": "HP Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-",
+      "brand": "Hp",
+      "total_reviews": 20,
+      "avg_rating": 4.15,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 17,
+        "Neutral": 0,
+        "Negative": 3
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.78,
+        "harga_nilai": 0.83,
+        "pengiriman": 0.5
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "worth",
+        "fast",
+        "satisfied",
+        "excellent",
+        "awesome",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "worst",
+        "issue",
+        "lack",
+        "disappointed",
+        "disappoint",
+        "poor",
+        "problem"
+      ]
+    },
+    {
+      "product_name": "LAVA A1500  (Black)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.1,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.67,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "value",
+        "awesome",
+        "recommend"
+      ],
+      "top_negative_phrases": [
+        "poor",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "LAVA Hero 600+  (Blue, Green)",
+      "brand": "Lava",
+      "total_reviews": 10,
+      "avg_rating": 4.1,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "handy",
+        "budget",
+        "amazing",
+        "perfect",
+        "best",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "regret",
+        "bad",
+        "poor"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 80 cm (32 inch) HD Ready LED Smart TV with Voice Sea",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 4.1,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 9,
+        "Neutral": 1,
+        "Negative": 0
+      },
+      "aspect_scores": {
+        "kualitas_produk": 1.0,
+        "harga_nilai": 0.8,
+        "pengiriman": 0.5
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "nice",
+        "deal",
+        "happy",
+        "best",
+        "awesome",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "not good",
+        "issue",
+        "avoid"
+      ]
+    },
+    {
+      "product_name": "HP Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 10 Hom",
+      "brand": "Hp",
+      "total_reviews": 10,
+      "avg_rating": 3.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.75,
+        "harga_nilai": 0.75,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "fast",
+        "best",
+        "nice",
+        "happy",
+        "value",
+        "worth",
+        "great"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "bad",
+        "not working",
+        "hang"
+      ]
+    },
+    {
+      "product_name": "realme C25Y (Metal Grey, 128 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.71,
+        "harga_nilai": 0.83,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "best",
+        "value",
+        "fast",
+        "excellent",
+        "perfect",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "cheap",
+        "not worth",
+        "poor",
+        "not working",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "realme C25Y (Glacier Blue, 128 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.71,
+        "harga_nilai": 0.83,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "best",
+        "value",
+        "fast",
+        "excellent",
+        "perfect",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "cheap",
+        "not worth",
+        "poor",
+        "not working",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "realme C25Y (Metal Grey, 64 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.9,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.71,
+        "harga_nilai": 0.83,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "best",
+        "value",
+        "fast",
+        "excellent",
+        "perfect",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "cheap",
+        "not worth",
+        "poor",
+        "not working",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG 253 L Frost Free Double Door 3 Star Refrigerator  (E",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 3.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 7,
+        "Neutral": 1,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.75,
+        "harga_nilai": 0.71,
+        "pengiriman": 0.57
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "happy",
+        "satisfied",
+        "best",
+        "amazing",
+        "efficient",
+        "convenient"
+      ],
+      "top_negative_phrases": [
+        "freeze",
+        "issue",
+        "hang",
+        "disappointed",
+        "disappoint"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M12 (Black, 64 GB)  (4 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 3.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 8,
+        "Neutral": 0,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.71,
+        "harga_nilai": 0.86,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good",
+        "fast",
+        "budget",
+        "smooth",
+        "easy",
+        "best",
+        "value"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "bad",
+        "not good"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M12 (Blue, 128 GB)  (6 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 3.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 7,
+        "Neutral": 1,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.67,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "awesome",
+        "nice",
+        "good",
+        "happy",
+        "fast",
+        "superb",
+        "impressive",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "slow",
+        "waste",
+        "heat",
+        "heating"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M12 (Black, 128 GB)  (6 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 3.8,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 7,
+        "Neutral": 1,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.67,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "awesome",
+        "nice",
+        "good",
+        "happy",
+        "fast",
+        "superb",
+        "impressive",
+        "worth"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "slow",
+        "waste",
+        "heat",
+        "heating"
+      ]
+    },
+    {
+      "product_name": "realme C21Y (Cross Blue, 64 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 7,
+        "Neutral": 1,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.7,
+        "harga_nilai": 0.62,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "best",
+        "fast",
+        "powerful",
+        "nice",
+        "love",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "not good",
+        "missing",
+        "lack",
+        "avoid",
+        "poor",
+        "fault",
+        "disappointed"
+      ]
+    },
+    {
+      "product_name": "realme C21Y (Cross Black, 64 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.7,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 7,
+        "Neutral": 1,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.7,
+        "harga_nilai": 0.62,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "awesome",
+        "best",
+        "fast",
+        "powerful",
+        "nice",
+        "love",
+        "decent"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "not good",
+        "missing",
+        "lack",
+        "avoid",
+        "poor",
+        "fault",
+        "disappointed"
+      ]
+    },
+    {
+      "product_name": "ASUS Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) X5",
+      "brand": "Asus",
+      "total_reviews": 3,
+      "avg_rating": 3.67,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 2,
+        "Neutral": 0,
+        "Negative": 1
+      },
+      "aspect_scores": {
+        "kualitas_produk": null,
+        "harga_nilai": 1.0,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "good"
+      ],
+      "top_negative_phrases": [
+        "bad"
+      ]
+    },
+    {
+      "product_name": "SAMSUNG Galaxy M32 (Black, 128 GB)  (6 GB RAM)",
+      "brand": "Samsung",
+      "total_reviews": 10,
+      "avg_rating": 3.5,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 0,
+        "Negative": 4
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.0,
+        "harga_nilai": 1.0,
+        "pengiriman": 1.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "awesome",
+        "superb",
+        "fast",
+        "beautiful",
+        "great",
+        "best"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "issue",
+        "hang",
+        "poor",
+        "bad"
+      ]
+    },
+    {
+      "product_name": "realme C25_Y (Glacier Blue, 64 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.0,
+        "pengiriman": 0.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "satisfied",
+        "happy",
+        "recommend",
+        "awesome",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "slow",
+        "not good",
+        "weak",
+        "waste",
+        "return"
+      ]
+    },
+    {
+      "product_name": "realme C25_Y (Metal Grey, 64 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.0,
+        "pengiriman": 0.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "satisfied",
+        "happy",
+        "recommend",
+        "awesome",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "slow",
+        "not good",
+        "weak",
+        "waste",
+        "return"
+      ]
+    },
+    {
+      "product_name": "realme C25_Y (Glacier Blue, 128 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.0,
+        "pengiriman": 0.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "satisfied",
+        "happy",
+        "recommend",
+        "awesome",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "slow",
+        "not good",
+        "weak",
+        "waste",
+        "return"
+      ]
+    },
+    {
+      "product_name": "realme C25_Y (Metal Grey, 128 GB)  (4 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.3,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 2,
+        "Negative": 2
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.4,
+        "harga_nilai": 0.0,
+        "pengiriman": 0.0
+      },
+      "top_positive_phrases": [
+        "good",
+        "nice",
+        "satisfied",
+        "happy",
+        "recommend",
+        "awesome",
+        "fast"
+      ],
+      "top_negative_phrases": [
+        "bad",
+        "slow",
+        "not good",
+        "weak",
+        "waste",
+        "return"
+      ]
+    },
+    {
+      "product_name": "realme C21Y (Cross Blue, 32 GB)  (3 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.1,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 0,
+        "Negative": 4
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.25,
+        "harga_nilai": 0.5,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good",
+        "simple",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "bad",
+        "waste",
+        "pathetic"
+      ]
+    },
+    {
+      "product_name": "realme C21Y (Cross Black, 32 GB)  (3 GB RAM)",
+      "brand": "Realme",
+      "total_reviews": 10,
+      "avg_rating": 3.1,
+      "overall_sentiment": "Positive",
+      "sentiment_distribution": {
+        "Positive": 6,
+        "Neutral": 0,
+        "Negative": 4
+      },
+      "aspect_scores": {
+        "kualitas_produk": 0.25,
+        "harga_nilai": 0.5,
+        "pengiriman": null
+      },
+      "top_positive_phrases": [
+        "nice",
+        "good",
+        "simple",
+        "smooth"
+      ],
+      "top_negative_phrases": [
+        "worst",
+        "bad",
+        "waste",
+        "pathetic"
+      ]
+    }
+  ],
+  "recommendations": {
+    "high": [
+      "**[Tim Produk & QA]** Lakukan audit teknis menyeluruh terhadap unit yang dilaporkan mengalami freeze/hang. Prioritaskan investigasi firmware dan driver update untuk model dengan keluhan performa paling tinggi. Target: rilis hotfix dalam 2 minggu."
+    ],
+    "medium": [
+      "**[Tim Produk & After-Sales]** Publikasikan panduan thermal management resmi (setting mode performa, rekomendasi cooling pad) di portal dukungan. Aktifkan notifikasi proaktif kepada pelanggan yang memiliki unit dengan laporan suhu tinggi.",
+      "**[Tim Operasional & Logistik]** Terapkan SLA pengiriman maksimal D+3 untuk area Tier-1 dan D+5 untuk area Tier-2/3. Integrasikan tracking real-time dan notifikasi proaktif via WhatsApp/SMS untuk meningkatkan transparansi status pengiriman."
+    ],
+    "low": [
+      "**[Tim Marketing & Growth]** Manfaatkan ulasan Positif yang menyebut value-for-money sebagai social proof di kampanye iklan. Buat program 'Verified Buyer Review' dengan insentif kecil untuk meningkatkan volume ulasan berkualitas tinggi.",
+      "**[Tim Produk]** Evaluasi penambahan fitur backlit keyboard dan fingerprint sensor pada lini produk entry-to-mid sebagai differentiator kompetitif — dua fitur ini paling sering disebut sebagai 'missing feature' dalam ulasan Netral.",
+      "**[Tim Data & Analytics]** Bangun pipeline analisis sentimen real-time (menggunakan IBM watsonx.ai) yang memproses ulasan baru setiap 24 jam, dengan alert otomatis ketika rating produk tertentu turun di bawah threshold 3.5/5 dalam periode 7 hari berturut-turut."
+    ]
+  }
+}
